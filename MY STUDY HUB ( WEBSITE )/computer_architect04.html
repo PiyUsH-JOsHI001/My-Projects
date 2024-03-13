@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Basic Operational Concepts</title>
+</head>
+
+<body>
+    
+    <h1 id="Basic Operational Concepts">Basic Operational Concepts</h1>
+    <ul>
+        <li>The primary function of a computer system is to execute a program, sequence of instructions. These
+            instructions are stored in computer memory.</li>
+        <br>
+        <li>These instructions are executed to process data which are already loaded in the computer memory through some
+            input devices.</li>
+        <br>
+        <li>After processing the data, the result is either stored in the memory for further reference, or it is sent to
+            the outside world through some output port.</li>
+        <br>
+        <li>To perform the execution of an instruction, in addition to the arithmetic logic unit, and control unit, the
+            processor contains a number of registers used for temporary storage of data and some special function
+            registers.</li>
+        <br>
+        <li>The special function registers include program counters (PC), instruction registers (IR), memory address
+            registers (MAR) and memory and memory data registers (MDR).</li>
+        <br>
+        <li>The Program counter is one of the most critical registers in CPU.</li>
+        <br>
+        <li>The Program counter monitors the execution of instructions. It keeps track on which instruction is being
+            executed and what the next instruction will be.</li>
+        <br>
+        <li>The instruction register IR is used to hold the instruction that is currently being executed.</li>
+        <br>
+        <li>The contents of IR are available to the control unit, which generate the timing signals that control, the
+            various processing elements involved in executing the instruction.</li>
+        <br>
+        <li>The two registers MAR and MDR are used to handle the data transfer between the main memory and the
+            processor.</li>
+        <br>
+        <li>The MAR holds the address of the main memory to or from which data is to be transferred.</li>
+        <br>
+        <li>The MDR contains the data to be written into or read from the addressed word of the main memory.</li>
+        <br>
+        <li>Whenever the processor is asked to communicate with devices, we say that the processor is servicing the
+            devices. The processor can service these devices in one of the two ways.</li>
+        <br>
+        <li>One way is to use the polling routine, and the other way is to use an interrupt.</li>
+        <br>
+        <li>Polling enables the processor software to check each of the input and output devices frequently. During this
+            check, the processor tests to see if any devices need servicing or not.</li>
+        <br>
+        <li>Interrupt method provides an external asynchronous input that informs the processor that it should complete
+            whatever instruction that is currently being executed and fetch a new routine that will service the
+            requesting device.</li>
+        <br>
+    </ul>
+    <div>
+        <a href="computer_architect03.html">
+            <div class="prevbtn"> <b>
+                    < PREVIOUS </b>
+            </div>
+        </a>
+    </div>
+    <div>
+        <a href="computer_architect05.html">
+            <div class="nextbtn"><b> NEXT ></b></div>
+        </a>
+    </div>
+   
+
+</body>
+
+</html>
